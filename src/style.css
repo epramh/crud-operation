@@ -27,11 +27,20 @@ td button i {
   justify-content: space-between;
   align-items: flex-start;
   padding: 0;
-}https://www.youtube.com/watch?v=q7-xXuUczko&t=11s
+}
 
 .modal-body form .imgholder {
-  flex-basis: 32%;
-  height: 100%;
+  /* flex-basis: 32%;
+  height: 100%; */
+  border-radius: 20px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 200px;
+}
+
+.imgholder .upload input {
+  display: none;
 }
 
 .modal-body form .inputField {
