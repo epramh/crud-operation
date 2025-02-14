@@ -1,6 +1,7 @@
 :root {
   --purple: #6f42c1;
 }
+
 .custom-element {
   color: var(--purple);
 }
@@ -48,8 +49,13 @@ td button i {
   justify-content: center;
   height: 100px;
   left: 10;
-  width: 100px;
+  position: absolute;
+  width: 100%;
+}
 
+.upload i {
+  color: #fff;
+  font-size: 35px;
 }
 
 .imgholder .upload input {
@@ -58,6 +64,6 @@ td button i {
 
 .modal-body form .inputField {
   flex-basis: 68%;
-  border-left: 5px grove blue;
+  border-left: 5px groove blue;
   padding-left: 20px;
 }
