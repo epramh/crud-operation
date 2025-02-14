@@ -79,3 +79,13 @@ form .inputField > div {
   margin-bottom: 20px;
   width: 100%;
 }
+
+form .inputField > div label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#userForm form .inputField > div label::after {
+  color: red;
+  content: "*";
+}
