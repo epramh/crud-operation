@@ -39,6 +39,19 @@ td button i {
   width: 200px;
 }
 
+.imgholder .upload {
+  bottom: 0;
+  background: rgba(0,0,0,0.3);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  left: 10;
+  width: 100px;
+
+}
+
 .imgholder .upload input {
   display: none;
 }
