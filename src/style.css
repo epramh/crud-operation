@@ -71,3 +71,11 @@ td button i {
   border-left: 5px groove blue;
   padding-left: 20px;
 }
+
+form .inputField > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
