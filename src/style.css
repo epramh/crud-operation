@@ -44,7 +44,7 @@ td button i {
   bottom: 0;
   background: rgba(0,0,0,0.3);
   cursor: pointer;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   height: 100px;
@@ -60,6 +60,10 @@ td button i {
 
 .imgholder .upload input {
   display: none;
+}
+
+.imgholder:hover .upload {
+  display: flex;
 }
 
 .modal-body form .inputField {
