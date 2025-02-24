@@ -91,6 +91,7 @@ form .inputField > div label {
 }
 
 form .inputField > div input {
+  background: transparent;
   border: none;
   border-bottom: 2px solid blue;
   outline: none;
@@ -99,5 +100,10 @@ form .inputField > div input {
 }
 
 .modal-footer .submit {
+  font-size: 18px;
+}
+
+#readData form .inputField div input {
+  color: #000;
   font-size: 18px;
 }
